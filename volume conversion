@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int litre,ml,mcube,cmcube;
+    printf("enter volume in litre and m cube");
+    scanf("%d\n%d",&litre,&mcube);
+    ml=litre*1000;
+    cmcube=mcube*10000000;
+    printf("volume in ml is %d\nvolume in cm cube is %d",ml,cmcube);
+}
