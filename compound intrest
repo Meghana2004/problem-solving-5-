@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+    int p,t,r,ci;
+    printf("enter the values of p,t,r");
+    scanf("%d%d%d",&p,&t,&r);
+    ci=p*(1+r/100)^t;
+    printf("the compound intrest is %d",ci);
+}
+
