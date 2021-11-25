@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    int basic,da,hra,pf,lic,netsalary;
+    printf("enter the basic,da,hra,pf,lic values");
+    scanf("%d%d%d%d%d",&basic,&da,&hra,&pf,&lic);
+    netsalary=basic+da+hra-pf-lic;
+    printf("net salary is %d",netsalary);
+}
