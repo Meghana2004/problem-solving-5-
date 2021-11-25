@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int msq,cmsq,ft,m;
+    printf("enter number of msq and feet");
+    scanf("%d\n%d",&msq,&ft);
+    cmsq=msq*10000;
+    m=ft*3.28;
+    printf("%d\n%d",cmsq,m);
+}
