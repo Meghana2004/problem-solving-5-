@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int km,m,cm;
+    printf("enter number of km");
+    scanf("%d",&km);
+    m=km*1000;
+    cm=m*100;
+    printf("%d\n%d",m,cm);
+}
